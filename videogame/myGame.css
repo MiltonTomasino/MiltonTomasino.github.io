@@ -96,3 +96,21 @@ body{
     background-color: white;
     color: black;
 }
+
+.new-button{
+    width: 200px;
+    height: 60px;
+    background-color: #7FFFD4;
+    border-color: #7FFFD4;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.new-button a{
+    text-decoration: none;
+}
+
+.new-button:hover{
+    background-color: aliceblue;
+    border-color: aliceblue;
+}

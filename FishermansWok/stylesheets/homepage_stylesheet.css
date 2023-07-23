@@ -31,8 +31,6 @@
 	display: flex;
 	justify-content: center;
 	list-style: none;
-	align-content: space-between;
-	flex-wrap: wrap;
 	
 }
 

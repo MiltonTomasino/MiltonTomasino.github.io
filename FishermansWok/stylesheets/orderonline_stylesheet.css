@@ -1,0 +1,188 @@
+.pageTitle{
+	font-family: Brush Script MT, cursive;
+	font-size: 500%;
+	color: #ff4d4d;
+	text-shadow: 0 0 20px wheat, 0 0 10px wheat;
+}
+
+/* Necessary Styling for Navigation and Header*/
+header{
+	background-image:url("https://www.mashed.com/img/gallery/the-surprising-origin-of-chinese-takeout-boxes/intro-1597823822.jpg");
+	background-position-x: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	height:600px;
+	
+}
+.accountInfo{
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+}
+
+.accountInfo li a{
+	border: 1px solid grey;
+	margin: 1px;
+	background-color: white;
+	font-family: Times New Roman;
+	color: black;
+	text-decoration: none;
+	padding: 5px;
+	padding-top: 20px;
+	font-size: 150%;
+}
+.navBar {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	align-content: space-between;
+	margin-bottom: 20px;
+}
+.navBar li a{
+	background-color: white;
+	font-family: Times New Roman;
+	color: black;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 150%;
+	border: 1px solid grey;
+	margin: 2px;
+}
+/* Dropdown menu to navigate order online section */
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: tomato;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover{
+	background-color: tomato;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/*Style for Ordering Form*/
+body {
+	background-color: wheat;
+}
+
+.foodTitle{
+	font-family: Brush Script MT, cursive;
+	font-size: 300%;
+	color: #ff4d4d;
+	text-shadow: 0 0 3px #ffdb4d, 0 0 5px #ffdb4d;
+}
+
+.foodGroup{
+	display: flex;
+	background-color: tomato;
+	justify-content: center;
+	padding: 5px;
+}
+
+.foodItem{
+	display: flex;
+	justify-content:center:
+}
+input[type=number]:focus{
+	background-color: lightgreen;
+}
+td{
+	justify-content: center;
+}
+tr{
+	justify-content: center;
+}
+
+/* Color Change When Hover Over Link */
+#link:hover {
+	color: #ff4d4d;
+}
+
+/* Necessary for footer*/
+.footer{
+	display: flex;
+	justify-content: center;
+}
+
+.footer div p{
+	font-family: Times New Roman;
+	font-size: 125%;
+}
+
+.person1{
+	background-color: whitesmoke;
+	margin-right: 0px;
+	padding: 10px;
+	border-left: 2px solid black;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.person2{
+	background-color: whitesmoke;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 10px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.person3{
+	background-color: whitesmoke;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 10px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.person4{
+	background-color: whitesmoke;
+	margin-left: 0px;
+	padding: 10px;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.submitButton {
+  background-color: LightGreen;
+  border: 10px;
+  color: black;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+

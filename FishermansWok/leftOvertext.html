@@ -1,0 +1,325 @@
+<!-- <form id="form">
+            
+            <fieldset>
+                <legend align = center>Enter Account Information:</legend><br>
+                <div class = "accountForms">
+                    <div class = "username_input"><label><b>Enter Username</b></label><br><input type="text" placeholder="username" id="formUsername"><br><small>error message</small></div>
+                    <div class = "Enter_userEmail"><label><b>Enter Email</b></label><br><input type="text" placeholder="abc123@abc.com" id="formEmail"><br><small>error message</small></div>
+                    <div class = "ReEnter_userEmail"><label><b>Re-enter Email</b></label><br><input type="text" placeholder="abc123@abc.com" id="formEmail2"><br><small>error message</small></div>
+                    <div class = "Enter_password"><label><b>Enter Password</b></label><br><input type="password" placeholder="password" id="formPassword"><br><small>error message</small></div>
+                    <div class = "ReEnter_password"><label><b>Re-Enter Password</b></label><br><input type="password" placeholder="password" id="formPassword2"><br><small>error message</small></div>
+                    <div class = "emptySpace"></div>
+                </div>
+                <br>
+                <button>submit</button>
+            </fieldset>
+            
+            <fieldset>
+                <legend align = center>Payment & Billing Information (Optional):</legend><br>
+                <div class = "paymentForms">
+                    <div class = "cardType">Card Type:
+                                    <select name="card_type" id="card_type">
+                                        <option value="">--Select a Card Type</option>
+                                        <option value="visa">Visa</option>
+                                        <option value="rupay">Amex</option>
+                                        <option value="mastercard">MasterCard</option></select></div>
+                    <div class = "cardName">Name on Card:<br><input type = "text" id ="card_Name" name = "card_Name"></div>
+                    <div class = "cardNumber">Card Number:<br><input type = "number" placeholder = "XXXX-XXXX-XXXX-XXXX" id ="card_number" name = "card_number"></div>
+                    <div class = "zipCode">Zip Code:<br><input type = "number" placeholder = "73923" id ="zip_code" name = "zip_code"></div>
+                    <div class = "expirDate">Expiration Date:<br><input type = "date" id ="expir_date" name = "expir_date"></div>
+                    <div class = "cvvCode">CVV:<br><input type = "number" size = "3" maxlength = "3" placeholder = "123" id = "cvv_code" name = "cvv_code"></div>
+                    <div class = "emptySpace1"></div>
+                    <div class = "address">Address:<br><input type = "text" id = "address" name = "address"></div>
+                    <div class = "city">City:<br><input type = "text" id = "usrCity" name = "usrCity"></div>
+                    <div class = "state">State:<br><select id="state" name="state">
+                                <option value=""></option>
+                                <option value="Alibama">AL</option>
+                                <option value="Alaska">AK</option>
+                                <option value="Arizona">AZ</option>
+                                <option value="Arkansas">AR</option>
+                                <option value="American Samoa">AS</option>
+                                <option value="California">CA</option>
+                                <option value="Colorado">CO</option>
+                                <option value="Conneticut">CT</option>
+                                <option value="Delaware">DE</option>
+                                <option value="District of Columbia">DC</option>
+                                <option value="Florida">FL</option>
+                                <option value="Georgia">GA</option>
+                                <option value="Guam">GU</option>
+                                <option value="Hawaii">HI</option>
+                                <option value="Idaho">ID</option>
+                                <option value="Illinois">IL</option>
+                                <option value="Indiana">IN</option>
+                                <option value="Iowa">IA</option>
+                                <option value="Kansas">KS</option>
+                                <option value="Kentucky">KY</option>
+                                <option value="Louisiana">LA</option>
+                                <option value="Maine">ME</option>
+                                <option value="Maryland">MD</option>
+                                <option value="Massachusetts">MA</option>
+                                <option value="Michigan">MI</option>
+                                <option value="Minnesota">MN</option>
+                                <option value="Mississippi">MS</option>
+                                <option value="Missouri">MO</option>
+                                <option value="Montana">MT</option>
+                                <option value="Nebraska">NE</option>
+                                <option value="Nevada">NV</option>
+                                <option value="New Hampshire">NH</option>
+                                <option value="New Jersey">NJ</option>
+                                <option value="New Mexico">NM</option>
+                                <option value="New York">NY</option>
+                                <option value="North Carolina">NC</option>
+                                <option value="North Dakota">ND</option>
+                                <option value="Northern Mariana Islands">MP</option>
+                                <option value="Ohio">Oh</option>
+                                <option value="Oklahoma">OK</option>
+                                <option value="Oregon">OR</option>
+                                <option value="Pennsylvania">PA</option>
+                                <option value="Puerto Rico">PR</option>
+                                <option value="Rhode Island">RI</option>
+                                <option value="South Carolina">SC</option>
+                                <option value="South Dakota">SD</option>
+                                <option value="Tennessee">TN</option>
+                                <option value="Texas">TX</option>
+                                <option value="Trust Territories">TT</option>
+                                <option value="Utah">UT</option>
+                                <option value="Vermont">VT</option>
+                                <option value="Virginia">VA</option>
+                                <option value="Virgin Islands">VI</option>
+                                <option value="Washington">WA</option>
+                                <option value="West Virginia">WV</option>
+                                <option value="Wisonsin">WI</option>
+                                <option value="Wyoming">WY</option></select></div>
+                    <div class = "country">Country:<br><input type = "text" id = "usrCountry" name = "usrCountry"></div>
+                    <div class = "emptySpace2"></div>
+                    <div class = "emptySpace3"></div>
+                </div>
+                <br>
+                
+            </fieldset>
+            
+            <br>
+            
+            <input type = "submit" value = "Create Account">
+			
+        
+        </form> -->
+
+
+
+
+
+
+        <!-- /* .accountForms{
+            display: grid;
+            grid-template-columns: 250px 250px 250px;
+            grid-template-rows: auto auto;
+            justify-content: center;
+        }
+        
+        legend{
+            font-weight: bold;
+        }
+        
+        small{
+            visibility: hidden;
+        }
+        
+        .username_input{
+            text-align: left;
+            font-size: 110%;
+            padding: 10px;
+            border-top: 1px solid black;
+            border-left: 1px solid black;
+            background-color: ghostwhite;
+        }
+        
+        .username_input.error input{
+            border: 3px solid red;
+        }
+        
+        .Enter_userEmail{
+            text-align: left;
+            font-size: 110%;
+            padding: 10px;
+            border-top: 1px solid black;
+            background-color: ghostwhite;
+            padding-bottom: 15px;
+        }
+        
+        .Enter_userEmail.error input{
+            border: 3px solid red;
+        }
+        
+        .ReEnter_userEmail{
+            text-align: left;
+            font-size: 110%;
+            padding: 10px;
+            border-top: 1px solid black;
+            border-right: 1px solid black;
+            background-color: ghostwhite;
+            padding-bottom: 15px;
+        }
+        
+        .ReEnter_userEmail.error input{
+            border: 3px solid red;
+        }
+        
+        .Enter_password{
+            text-align: left;
+            font-size: 110%;
+            padding: 10px;
+            border-left: 1px solid black;
+            border-bottom: 1px solid black;
+            background-color: ghostwhite;
+            padding-bottom: 15px;
+        }
+        
+        .Enter_password.error input{
+            border: 3px solid red;
+        }
+        
+        .ReEnter_password{
+            text-align: left;
+            font-size: 110%;
+            padding: 10px;
+            border-bottom: 1px solid black;
+            background-color: ghostwhite;
+            padding-bottom: 15px;
+        }
+        
+        .ReEnter_password.error input{
+            border: 3px solid red;
+        }
+        
+        .emptySpace{
+            background-color: ghostwhite;
+            border-right: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+        
+        .paymentForms{
+            display: grid;
+            grid-template-columns: 250px 250px 250px;
+            grid-template-rows: auto auto auto auto;
+            justify-content: center;
+        }
+        
+        .cardType{
+            font-weight: bold;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            align-content: center;
+            padding: 10px;
+        }
+        
+        .cardName{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            text-align: left;
+            font-size: 110%;
+            font-weight: bold;
+            padding: 10px;
+            border-top: 1px solid black;
+            border-left: 1px solid black;
+            background-color: ghostwhite;
+            padding-bottom: 15px;
+        }
+        
+        .cardNumber{
+            text-align: left;
+            font-size: 110%;
+            font-weight: bold;
+            padding: 10px;
+            border-top: 1px solid black;
+            background-color: ghostwhite;
+            padding-bottom: 15px;
+        }
+        
+        .zipCode{
+            text-align: left;
+            font-size: 110%;
+            font-weight: bold;
+            padding: 10px;
+            border-top: 1px solid black;
+            border-right: 1px solid black;
+            background-color: ghostwhite;
+            padding-bottom: 15px;
+        }
+        
+        .expirDate{
+            text-align: left;
+            font-size: 110%;
+            font-weight: bold;
+            padding: 10px;
+            border-left: 1px solid black;
+            background-color: ghostwhite;
+            padding-bottom: 15px;
+        }
+        
+        .cvvCode{
+            text-align: left;
+            font-size: 110%;
+            font-weight: bold;
+            padding: 10px;
+            background-color: ghostwhite;
+            padding-bottom: 15px;
+        }
+        
+        .address{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            text-align: left;
+            font-size: 110%;
+            font-weight: bold;
+            padding: 10px;
+            border-left: 1px solid black;
+            background-color: ghostwhite;
+            padding-bottom: 15px;
+        }
+        
+        .city{
+            text-align: left;
+            font-size: 110%;
+            font-weight: bold;
+            padding: 10px;
+            background-color: ghostwhite;
+            padding-bottom: 15px;
+        }
+        
+        .state{
+            text-align: left;
+            font-size: 110%;
+            font-weight: bold;
+            padding: 10px;
+            border-right: 1px solid black;
+            background-color: ghostwhite;
+            padding-bottom: 15px;
+        }
+        
+        .country{
+            text-align: left;
+            font-size: 110%;
+            font-weight: bold;
+            padding: 10px;
+            border-left: 1px solid black;
+            border-bottom: 1px solid black;
+            background-color: ghostwhite;
+            padding-bottom: 15px;
+        }
+        
+        .emptySpace1{
+            border-right: 1px solid black;
+            background-color: ghostwhite;
+        }
+        
+        .emptySpace2{
+            border-bottom: 1px solid black;
+            background-color: ghostwhite;
+        }
+        
+        .emptySpace3{
+            border-bottom: 1px solid black;
+            border-right: 1px solid black;
+            background-color: ghostwhite;
+        } */ -->

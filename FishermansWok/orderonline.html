@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang = "eng">
+	<head>
+		<meta charset = "utf-8">	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>
+			Order Online 
+		</title>
+		<link rel="stylesheet" href="./stylesheets/orderonline_stylesheet.css">
+		<link rel="stylesheet" href="./stylesheets/menu_stylesheet.css">
+	</head>
+	<header>
+		<div class = "pageTitle">	
+			<center><h1><u>Order Online </u></h1></center>
+		</div>
+		<nav>
+			<ul class = "navBar">
+				<li><a id = "link" href = "HomePage.html">Home Page</a></li>
+				<div class = "menu">
+				<li><a id = "link" href = "menu.html">Menu</a></li>
+					<div class = "sub-menu">
+						<a id = "menu-link" href = "./menu_items/Appetizers.html">Appetizers</a>
+						<a id = "menu-link" href = "./menu_items/Dim_Sum.html">Dim Sum</a>
+						<a id = "menu-link" href = "./menu_items/Noodles.html">Noodles</a>
+						<a id = "menu-link" href = "./menu_items/Beef.html">Beef</a>
+						<a id = "menu-link" href = "./menu_items/Desserts.html">Desserts</a>
+						<a id = "menu-link" href = "./menu_items/Drinks.html">Drinks</a>
+					</div>
+				</div>
+				<li><a id = "link" href = "about_us.html">About Us</a></li>
+				<li><a id = "link" href = "orderonline.html">Order Online</a></li>
+				<li><a id = "link" href = "faq.html">FAQ</a></li>
+				<li><a id ="link" href="signin.html">Sign Up</a></li>
+				<li><a id ="link" href="registration.html">Log In</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<body>
+		<div>
+			<ul class = "navBar">
+				<li class = "dropdown">
+					<a id = "top" class = "dropbtn" href = "orderonline.html">Jump To Different Parts of The Menu</a>
+					<div class="dropdown-content">
+						<a href="#appetizers">Appetizers</a>
+						<a href="#dimsum">Dim Sum</a>
+						<a href="#noodles">Noodles</a>
+						<a href="#beef">Beef</a>
+						<a href="#desserts">Dessert</a>
+						<a href="#drinks">Drinks</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<form action = "payment.html">
+			<center>
+			<!-- Appetizers -->	
+			<h2 class = "foodTitle" id = "appetizers"> Appetizers </h2>
+			<table class = "foodGroup">
+				<!-- Item 1-->
+				<td>
+					<table class = "foodItem">
+						<tr>
+							<th>
+								Egg Rolls
+							</th>
+							<tr> 
+								<td align = "center">
+									<img src = "./images/egg-rolls.jpeg" width = 200 height = 200> 
+								</td>
+							</tr>
+							<tr align = "center">
+								<td>
+									Price: $8.00
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for "ER_Number">Number of Orders:</label><br>
+									<input type="number" id = "ER_Number" name "ER_Number" min = "0">
+								</td>
+							</t>
+						</tr>
+					</table>
+				</td>
+				<!-- Item 2-->
+				<td>
+					<table class = "foodItem">
+						<tr>
+							<th>
+								Crab Rangoon
+							</th>
+							<tr> 
+								<td align = "center">
+									<img src = "./images/crab_rangoon.jpeg" width = 200 height = 200> 
+								</td>
+							</tr>
+							<tr align = "center">
+								<td>
+									Price: $9.00
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for "CR_Number">Number of Orders:</label><br>
+									<input type="number" id = "CR_Number" name "CR_Number" min = "0">
+								</td>
+							</t>
+						</tr>
+					</table>
+				</td>
+				<!-- Item 3-->
+				<td>
+					<table class ="foodItem">
+						<tr>
+							<th>
+								Spicy Wontons
+							</th>
+							<tr> 
+								<td align = "center">
+									<img src = "./images/spicy-wontons.jpeg" width = 200 height = 200> 
+								</td>
+							</tr>
+							<tr align = "center">
+								<td>
+									Price: $8.50
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for "LW_Number">Number of Orders:</label><br>
+									<input type="number" id = "SW_Number" name "SW_Number" min = "0">
+								</td>
+							</t>
+						</tr>
+					</table>
+				</td>
+				<!-- Item 4-->
+				<td>
+					<table class="foodItem">
+						<tr>
+							<th>
+								Lettuce Wraps
+							</th>
+							<tr> 
+								<td align = "center">
+									<img src = "./images/lettuce-wraps.jpeg" width = 200 height = 200> 
+								</td>
+							</tr>
+							<tr align = "center">
+								<td>
+									Price: $7.50
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for "LW_Number">Number of Orders:</label><br>
+									<input type="number" id = "LW_Number" name "LW_Number" min = "0">
+								</td>
+							</t>
+						</tr>
+					</table>
+				</td>
+				
+				<!-- Item 5-->
+				<td>
+					<table class ="foodItem">
+						<tr>
+							<th>
+								Pork and Shrimp Potstickers
+							</th>
+							<tr> 
+								<td align = "center">
+									<img src = "./images/Pork-and-Shrimp.jpeg" width = 200 height = 200> 
+								</td>
+							</tr>
+							<tr align = "center">
+								<td>
+									Price: $7.50
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for "PSP_Number">Number of Orders:</label><br>
+									<input type="number" id = "PSP_Number" name "PSP_Number" min = "0">
+								</td>
+							</t>
+						</tr>
+					</table>
+				</td>
+				
+				
+			</table>
+			<h4><a href="#top">Back to top</a><h4>
+			<!-- Dim Sum -->
+			<h2 class = "foodTitle" id = "dimsum"> Dim Sum </h2>
+			<table class = "foodGroup">
+				<!-- Item 1-->
+				<td>
+					<table class = "foodItem">
+						<tr>
+							<th>
+								Char Siu Bao (Steamed BBQ Pork Buns)
+							</th>
+							<tr> 
+								<td align = "center">
+									<img src = "./images/steamed-bbq-pork-buns.jpeg" width = 200 height = 200> 
+								</td>
+							</tr>
+							<tr align = "center">
+								<td>
+									Price: $8.00
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for "CSB_Number">Number of Orders:</label><br>
+									<input type="number" id = "CSB_Number" name "CSB_Number" min = "0">
+								</td>
+							</t>
+						</tr>
+					</table>
+				</td>
+				<!-- Item 2-->
+				<td>
+					<table class = "foodItem">
+						<tr>
+							<th>
+								Har Gao (Shrimp Dumplings)
+							</th>
+							<tr align = "center"> 
+								<td>
+									<img src = "./images/har_gow.jpg" width = 200 height = 200> 
+								</td>
+							</tr>
+							<tr align = "center">
+								<td>
+									Price: $9.00
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="HG_Number">Number of Orders:</label><br>
+									<input type="number" id = "HGNumber" name = "HG_Number" min = "0">
+								</td>
+							</t>
+						</tr>
+					</table>
+				</td>
+				<!-- Item 3 -->
+				<td>
+					<table class = "foodItem">
+						<tr>
+							<th>
+								Siu Mai(Shrimp and Pork Dumplings)
+							</th>
+							<tr align = "center"> 
+								<td>
+									<img src = "./images/shumai.jpeg" width = 200 height = 200> 
+								</td>
+							</tr>
+							<tr align = "center">
+								<td>
+									Price: $8.50
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="SMNumber">Number of Orders:</label><br>
+									<input type="number" id = "SM_Number" name = "SM_Number" min = "0">
+								</td>
+							</t>
+						</tr>
+					</table>
+				</td>
+				<!-- Item 4 -->
+				<td>
+					<table class = "foodItem">
+						<tr>
+							<th>
+								Lo Bak Gou(Pan Fried Turnip Cake)
+							</th>
+							<tr align = "center"> 
+								<td>
+									<img src = "./images/pan_fried_turnip_cake.jpeg" width = 200 height = 200> 
+								</td>
+							</tr>
+							<tr align = "center">
+								<td>
+									Price: $7.50
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="LBG_Number">Number of Orders:</label><br>
+									<input type="number" id = "LBG_Number" name = "LBG_Number" min = "0">
+								</td>
+							</t>
+						</tr>
+					</table>
+				</td>
+				<!-- Item 5 -->
+				<td>
+					<table class = "foodItem">
+						<tr>
+							<th>
+								Lo Mai Gai(Sticky Rice In Lotus Leaf)
+							</th>
+							<tr align = "center"> 
+								<td>
+									<img src = "./images/dim-sum-sticky-rice-lettuce.jpeg" width = 200 height = 200> 
+								</td>
+							</tr>
+							<tr align = "center">
+								<td>
+									Price: $7.50
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="LMG_Number">Number of Orders:</label><br>
+									<input type="number" id = "LMG_Number" name = "LMG_Number" min = "0">
+								</td>
+							</t>
+						</tr>
+					</table>
+				</td>
+			</table>
+			<h4><a href="#top">Back to top</a><h4>
+			<!-- Noodle Section -->
+			<h2 class = "foodTitle" id = "noodles"> Noodles </h2>
+			<table class = "foodGroup">
+				<!-- Item 1 -->
+				<td>
+					<table class = "foodItem">
+						<tr>
+							<th>
+								Beef Chow Fun (Wide Rice Noodles)
+							</th>
+							<tr align = "center"> 
+								<td>
+									<img src = "./images/beef-chow-fun.jpeg" width = 200 height = 200> 
+								</td>
+							</tr>
+							<tr align = "center">
+								<td>
+									Price: $14.00
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="BeefChowFun_Number">Number of Orders:</label><br>
+									<input type="number" id = "BeefChowFun_Number" name = "BeefChowFun_Number" min = "0">
+								</td>
+							</t>
+						</tr>
+					</table>
+				</td>
+				<!-- Item 2 -->
+				<td>
+					<table class = "foodItem">
+						<tr>
+							<th>
+								Dan Dan Noodles (Spicy Sichuan Noodles)
+							</th>
+							<tr align = "center"> 
+								<td>
+									<img src = "./images/dan-dan-noodles.jpeg" width = 200 height = 200> 
+								</td>
+							</tr>
+							<tr align = "center">
+								<td>
+									Price: $14.50
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="DanDan_Number">Number of Orders:</label><br>
+									<input type="number" id = "DanDan_Number" name = "DanDan_Number" min = "0">
+								</td>
+							</t>
+						</tr>
+					</table>
+				</td>
+				<!-- Item 3 -->
+				<td>
+					<table class = "foodItem">
+						<tr>
+							<th>
+								Beef Soup with Hand Pulled Noodles
+							</th>
+							<tr align = "center"> 
+								<td>
+									<img src = "./images/hand_pulled_noodles_beef_soup.jpeg" width = 200 height = 200> 
+								</td>
+							</tr>
+							<tr align = "center">
+								<td>
+									Price: $16.50
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="BeefSoupNoodles_Number">Number of Orders:</label><br>
+									<input type="number" id = "BeefSoupNoodles_Number" name = "BeefSoupNoodles_Number" min = "0">
+								</td>
+							</t>
+						</tr>
+					</table>
+				</td>
+				<!-- Item 4 -->
+				<td>
+					<table class = "foodItem">
+						<tr>
+							<th>
+								Spicy Beef Soup with Hand Pulled Noodles
+							</th>
+							<tr align = "center"> 
+								<td>
+									<img src = "./images/beef-noodle-soup.jpeg" width = 200 height = 200> 
+								</td>
+							</tr>
+							<tr align = "center">
+								<td>
+									Price: $16.50
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="SpicyBeefSoupNoodles_Number">Number of Orders:</label><br>
+									<input type="number" id = "SpicyBeefSoupNoodles_Number" name = "SpicyBeefSoupNoodles_Number" min = "0">
+								</td>
+							</t>
+						</tr>
+					</table>
+				</td>
+				<!-- Item 5 -->
+				<td>
+					<table class = "foodItem">
+						<tr>
+							<th>
+								Singapore Style Curry Noodles
+							</th>
+							<tr align = "center"> 
+								<td>
+									<img src = "./images/singapore-noodles.jpeg" width = 200 height = 200> 
+								</td>
+							</tr>
+							<tr align = "center">
+								<td>
+									Price: $16.00
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="SingaporeNoodles_Number">Number of Orders:</label><br>
+									<input type="number" id = "SingaporeNoodles_Number" name = "SingaporeNoodles_Number" min = "0">
+								</td>
+							</t>
+						</tr>
+					</table>
+				</td>
+				<!-- Item 6 -->
+				<td>
+					<table class = "foodItem">
+						<tr>
+							<th>
+								Cantonese Style Wonton Soup With Hand Pulled Noodles
+							</th>
+							<tr align = "center"> 
+								<td>
+									<img src = "./images/shrimp_pork_chicken_wonton.jpeg" width = 200 height = 200> 
+								</td>
+							</tr>
+							<tr align = "center">
+								<td>
+									Price: $16.50
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="WontonNoodles_Number">Number of Orders:</label><br>
+									<input type="number" id = "WontonNoodles_Number" name = "WontonNoodles_Number" min = "0">
+								</td>
+							</t>
+						</tr>
+					</table>
+				</td>
+			</table>
+			<h4><a href="#top">Back to top</a><h4>
+			<h2 class = "foodTitle" id = "beef"> Beef </h2>
+			<table class = "foodGroup">
+				<!-- Item 1 -->
+				<td>
+					<table class = "foodItem">
+						<tr>
+							<th>
+								Beef With Broccoli
+							</th>
+							<tr align = "center"> 
+								<td>
+									<img src = "./images/beef_with_broccoli.jpeg" width = 200 height = 200> 
+								</td>
+							</tr>
+							<tr align = "center">
+								<td>
+									Price: $16.00
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="BroccoliBeef_Number">Number of Orders:</label><br>
+									<input type="number" id = "BroccoliBeef_Number" name = "BroccoliBeef_Number" min = "0">
+								</td>
+							</t>
+						</tr>
+					</table>
+				</td>
+				<!-- Item 2 -->
+				<td>
+					<table class = "foodItem">
+						<tr>
+							<th>
+								Mongolian Beef
+							</th>
+							<tr align = "center"> 
+								<td>
+									<img src = "./images/mongolian-beef.jpeg" width = 200 height = 200> 
+								</td>
+							</tr>
+							<tr align = "center">
+								<td>
+									Price: $17.00
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="MongolianBeef_Number">Number of Orders:</label><br>
+									<input type="number" id = "MongolianBeef_Number" name = "MongolianBeef_Number" min = "0">
+								</td>
+							</t>
+						</tr>
+					</table>
+				</td>
+				<!-- Item 3 -->
+				<td>
+					<table class = "foodItem">
+						<tr>
+							<th>
+								Beef and Vegetable Stir Fry
+							</th>
+							<tr align = "center"> 
+								<td>
+									<img src = "./images/beef_veg_stir_fry.jpeg" width = 200 height = 200> 
+								</td>
+							</tr>
+							<tr align = "center">
+								<td>
+									Price: $16.00
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="VegetableStirfryBeef_Number">Number of Orders:</label><br>
+									<input type="number" id = "VegetableStirfryBeef_Number" name = "VegetableStirfryBeef_Number" min = "0">
+								</td>
+							</t>
+						</tr>
+					</table>
+				</td>
+				<!-- Item 4 -->
+				<td>
+					<table class = "foodItem">
+						<tr>
+							<th>
+								Kung Pao Beef
+							</th>
+							<tr align = "center"> 
+								<td>
+									<img src = "./images/kung-pao-beef.jpeg" width = 200 height = 200> 
+								</td>
+							</tr>
+							<tr align = "center">
+								<td>
+									Price: $17.00
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="KungpaoBeef_Number">Number of Orders:</label><br>
+									<input type="number" id = "KungpaoBeef_Number" name = "KungpaoBeef_Number" min = "0">
+								</td>
+							</t>
+						</tr>
+					</table>
+				</td>
+			</table>
+			<h4><a href="#top">Back to top</a><h4>
+			<!-- Desserts -->
+			<h2 class = "foodTitle" id="desserts"> Desserts </h2>
+			<table class = "foodGroup">
+				<!-- Item 1 -->
+				<td>
+					<table class = "foodItem">
+						<tr>
+							<th>
+								Egg Custard
+							</th>
+							<tr align = "center"> 
+								<td>
+									<img src = "./images/custard-tarts.jpeg" width = 200 height = 200> 
+								</td>
+							</tr>
+							<tr align = "center">
+								<td>
+									Price: $7.00
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="CustardTartDessert_Number">Number of Orders:</label><br>
+									<input type="number" id = "CustardTartDessert_Number" name = "CustardTartDessert_Number" min = "0">
+								</td>
+							</t>
+						</tr>
+					</table>
+				</td>
+				<!-- Item 2 -->
+				<td>
+					<table class = "foodItem">
+						<tr>
+							<th>
+								Red Bean Soup
+							</th>
+							<tr align = "center"> 
+								<td>
+									<img src = "./images/red-bean-soup.jpeg" width = 200 height = 200> 
+								</td>
+							</tr>
+							<tr align = "center">
+								<td>
+									Price: $7.50
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="RedBeanSoupDessert_Number">Number of Orders:</label><br>
+									<input type="number" id = "RedBeanSoupDessert_Number" name = "RedBeanSoupDessert_Number" min = "0">
+								</td>
+							</t>
+						</tr>
+					</table>
+				</td>
+				<!-- Item 3 -->
+				<td>
+					<table class = "foodItem">
+						<tr>
+							<th>
+								Jian Dui (Fried Sesame Balls)
+							</th>
+							<tr align = "center"> 
+								<td>
+									<img src = "./images/sesame-balls.jpeg" width = 200 height = 200> 
+								</td>
+							</tr>
+							<tr align = "center">
+								<td>
+									Price: $5.50
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="SesameBallsDessert_Number">Number of Orders:</label><br>
+									<input type="number" id = "SesameBallsDessert_Number" name = "SesameBallsDessert_Number" min = "0">
+								</td>
+							</t>
+						</tr>
+					</table>
+				</td>
+				<!-- Item 4 -->
+				<td>
+					<table class = "foodItem">
+						<tr>
+							<th>
+								Sweet Taro Soup
+							</th>
+							<tr align = "center"> 
+								<td>
+									<img src = "./images/taro-sago-dessert-soup.jpeg" width = 200 height = 200> 
+								</td>
+							</tr>
+							<tr align = "center">
+								<td>
+									Price: $7.50
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="SweetTaroSoupDessert_Number">Number of Orders:</label><br>
+									<input type="number" id = "SweetTaroSoupDessert_Number" name = "SweetTaroSoupDessert_Number" min = "0">
+								</td>
+							</t>
+						</tr>
+					</table>
+				</td>
+				<!-- Item 5 -->
+				<td>
+					<table class = "foodItem">
+						<tr>
+							<th>
+								Mango Sticky Rice
+							</th>
+							<tr align = "center"> 
+								<td>
+									<img src = "./images/mango-sticky-rice-dessert.jpeg" width = 200 height = 200> 
+								</td>
+							</tr>
+							<tr align = "center">
+								<td>
+									Price: $7.50
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="MangoStickyDessert_Number">Number of Orders:</label><br>
+									<input type="number" id = "MangoStickyDessert_Number" name = "MangoStickySoupDessert_Number" min = "0">
+								</td>
+							</t>
+						</tr>
+					</table>
+				</td>
+			</table>
+			<h4><a href="#top">Back to top</a><h4>
+			
+			<h2 class = "foodTitle" id = "drinks"> Drinks </h2>
+			<table class = "foodGroup">
+				<!-- first row -->
+				<tr>
+					<!-- Item 1 -->
+					<td>
+						<table class = "foodItem">
+							<tr>
+								<th>
+									Date Ginger Tea
+								</th>
+								<tr align = "center"> 
+									<td>
+										<img src = "./images/oolong-tea.jpg" width = 200 height = 200> 
+									</td>
+								</tr>
+								<tr align = "center">
+									<td>
+										Price: $2.50
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label for="OolongTeaDrink_Number">Number of Orders:</label><br>
+										<input type="number" id = "OolongTeaDrink_Number" name = "OolongTeaDrink_Number" min = "0">
+									</td>
+								</t>
+							</tr>
+						</table>
+					</td>
+					<!-- Item 2 -->
+					<td>
+						<table class = "foodItem">
+							<tr>
+								<th>
+									Bubble Tea
+								</th>
+								<tr align = "center"> 
+									<td>
+										<img src = "./images/bubble-tea.jpeg" width = 200 height = 200> 
+									</td>
+								</tr>
+								<tr align = "center">
+									<td>
+										Price: $5.50
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label for="BubbleTeaDrink_Number">Number of Orders:</label><br>
+										<input type="number" id = "BubbleTeaDrink_Number" name = "BubbleTeaDrink_Number" min = "0">
+									</td>
+								</t>
+							</tr>
+						</table>
+					</td>
+					<!-- Item 2 -->
+					<td>
+						<table class = "foodItem">
+							<tr>
+								<th>
+									Coke
+								</th>
+								<tr align = "center"> 
+									<td>
+										<img src = "./images/coke-bottle.jpeg" width = 200 height = 200> 
+									</td>
+								</tr>
+								<tr align = "center">
+									<td>
+										Price: $3.00
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label for="CokeDrink_Number">Number of Orders:</label><br>
+										<input type="number" id = "CokeDrink_Number" name = "CokeDrink_Number" min = "0">
+									</td>
+								</t>
+							</tr>
+						</table>
+					</td>
+					<!-- Item 3 -->
+					<td>
+						<table class = "foodItem">
+							<tr>
+								<th>
+									Diet Coke
+								</th>
+								<tr align = "center"> 
+									<td>
+										<img src = "./images/diet-coke.jpeg" width = 200 height = 200> 
+									</td>
+								</tr>
+								<tr align = "center">
+									<td>
+										Price: $3.00
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label for="DietCokeDrink_Number">Number of Orders:</label><br>
+										<input type="number" id = "DietCokeDrink_Number" name = "DietCokeDrink_Number" min = "0">
+									</td>
+								</t>
+							</tr>
+						</table>
+					</td>
+					<!-- Item 4 -->
+					<td>
+						<table class = "foodItem">
+							<tr>
+								<th>
+									Sprite
+								</th>
+								<tr align = "center"> 
+									<td>
+										<img src = "./images/sprite.bottle.jpeg" width = 200 height = 200> 
+									</td>
+								</tr>
+								<tr align = "center">
+									<td>
+										Price: $3.00
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label for="SpriteDrink_Number">Number of Orders:</label><br>
+										<input type="number" id = "SpriteDrink_Number" name = "SpriteDrink_Number" min = "0">
+									</td>
+								</t>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				
+				<!-- second row -->
+				<tr>
+					<!-- Item 5 -->
+					<td>
+						<table class = "foodItem">
+							<tr>
+								<th>
+									Plum Juice
+								</th>
+								<tr align = "center"> 
+									<td>
+										<img src = "./images/sour-plum-drink.jpeg" width = 200 height = 200> 
+									</td>
+								</tr>
+								<tr align = "center">
+									<td>
+										Price: $3.50
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label for="PlumDrink_Number">Number of Orders:</label><br>
+										<input type="number" id = "PlumDrink_Number" name = "PlumDrink_Number" min = "0">
+									</td>
+								</t>
+							</tr>
+						</table>
+					</td>
+					<!-- Item 6 -->
+					<td>
+						<table class = "foodItem">
+							<tr>
+								<th>
+									Soy Milk
+								</th>
+								<tr align = "center"> 
+									<td>
+										<img src = "./images/soy_milk.jpeg" width = 200 height = 200> 
+									</td>
+								</tr>
+								<tr align = "center">
+									<td>
+										Price: $2.50
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label for="SoyMilkDrink_Number">Number of Orders:</label><br>
+										<input type="number" id = "SoyMilkDrink_Number" name = "SoyMilkDrink_Number" min = "0">
+									</td>
+								</t>
+							</tr>
+						</table>
+					</td>
+					<!-- Item 7 -->
+					<td>
+						<table class = "foodItem">
+							<tr>
+								<th>
+									Tsing Tao Beer
+								</th>
+								<tr align = "center"> 
+									<td>
+										<img src = "./images/tsingtaobeer.jpeg" width = 200 height = 200> 
+									</td>
+								</tr>
+								<tr align = "center">
+									<td>
+										Price: $4.50
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label for="TTBeerDrink_Number">Number of Orders:</label><br>
+										<input type="number" id = "TTBeerDrink_Number" name = "TTBeerDrink_Number" min = "0">
+									</td>
+								</t>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			<input class = "submitButton" type = "submit" value = "Check Out">
+			<h4><a href="#top">Back to top</a><h4>
+			</center>		
+		</form>
+	</body>
+
+	<footer>
+		<div class = "footer">
+			<div class = "person1"><p>Alpha Diallo<br>Email: adiallo@sfsu.edu</p></div>
+			<div class = "person2"><p>Milton Tomasino<br>Email: mtomasino@sfsu.edu</p></div>
+			<div class = "person3"><p>Thomas Bercasio<br>Email: tbercasio@sfsu.edu</p></div>
+			<div class = "person4"><p>Tong Lin<br>Email: tlin@sfsu.edu</p></div>
+		</div>
+	</footer>
+</html>

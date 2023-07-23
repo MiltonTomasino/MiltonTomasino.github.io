@@ -1,0 +1,56 @@
+<!-- Milton Tomasino
+Student ID: 922762734
+GitHub: MiltonTomasino -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "myGame.css">
+    <title>My Game</title>
+</head>
+<body>
+<div class="grid">
+        <div class="header"><h1>2 Furious 2 fast</h1></div>
+        <div class="leftSide">
+            <div id="controls">
+                <ul>
+                    <li>W = Up</li>
+                    <li>S = Down</li>
+                    <li>A = Left</li>
+                    <li>D = Right</li>
+                </ul>
+                <div id="player">You = <img id="redCar"src="./Images/redCar.png" width = 30 height = 50></div>
+            </div>
+                
+        </div>
+        <div class="GameCanvas"><canvas id="gameArea" width = 800 height = 630></canvas><br></div>
+        <div class="rightSide">
+            <div id="carImages">
+                Avoid the following:
+                <ul>
+                    <li><img src="./Images/pinkCar.png" width = 30 height = 50></li>
+                    <li><img src="./Images/greenCar.png" width = 30 height = 50></li>
+                    <li><img src="./Images/yellowCar.png" width = 30 height = 50></li>
+                    <li><img src="./Images/truck.png" width = 30 height = 50></li>
+                </ul>
+            <div>Each car does <h1>25</h1> points of damage</div>    
+            </div>
+        </div>
+        <div class="centerButtons">
+            <div id="buttons">
+                <button id="button" onclick="startGame()">start game</button>
+                <button id="button" onClick="window.location.reload();">Refresh Page</button>
+            </div>
+        </div>
+        <div class="pageDirections">
+            <div id="directions">Refresh page to restart game</div>
+        </div>
+</div>
+    <script src = "myGame.js"></script>
+    
+
+</body>
+</html>

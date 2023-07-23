@@ -1,0 +1,123 @@
+body {
+	background-color: wheat;
+}
+
+.title{
+	font-family: Brush Script MT, cursive;
+	font-size: 500%;
+	color: #ff4d4d;
+	text-shadow: 0 0 3px #ffdb4d, 0 0 5px #ffdb4d;
+}
+
+.foodTitle{
+	font-family: Brush Script MT, cursive;
+	font-size: 300%;
+	color: #ff4d4d;
+	text-shadow: 0 0 3px #ffdb4d, 0 0 5px #ffdb4d;
+}
+
+.navBar {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	align-content: space-between;
+	margin-bottom: 20px;
+}
+
+
+.navBar #link {
+	display: flex;
+	background-color: white;
+	font-family: Times New Roman;
+	color: black;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 150%;
+	border: 1px solid grey;
+	margin: 2px;
+}
+
+#link:hover {
+	color: #ff4d4d;
+}
+
+
+/* Submenu Content (Hidden by Default) */
+.sub-menu {
+	display: none;
+	position: absolute;
+	text-align: left;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/* Links inside the submenu */
+.sub-menu a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+/* Change color when hovering over submenu links */
+#menu-link:hover {
+	background-color: #f1f1f1;
+	color: #ff4d4d;
+}
+
+
+/* Show the submenu on hover */
+.menu:hover .sub-menu {
+	display: block;
+}
+
+
+/* Copied from Milton who designed footer */
+.footer{
+	display: flex;
+	justify-content: center;
+	position: bottom;
+}
+
+.footer div p{
+	font-family: Times New Roman;
+	font-size: 125%;
+}
+
+.person1{
+	background-color: whitesmoke;
+	margin-right: 0px;
+	padding: 10px;
+	border-left: 2px solid black;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.person2{
+	background-color: whitesmoke;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 10px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.person3{
+	background-color: whitesmoke;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 10px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.person4{
+	background-color: whitesmoke;
+	margin-left: 0px;
+	padding: 10px;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}

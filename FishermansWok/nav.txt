@@ -1,0 +1,12 @@
+<!-- Website Navigation Template -->
+<!-- Add paths to your pages -->
+
+<nav>	
+	<table border = 1px>
+		<tr>
+			<td> <a href = "/var/www/html/HomePage.html"> Home </a> </td>
+			<td> <a href = "/var/www/html/faq.html"> FAQ </a> </td>
+			<td> <a href = "/var/www/html/orderonline.html"> Order </a> </td>
+		</tr>
+	</table>
+</nav>

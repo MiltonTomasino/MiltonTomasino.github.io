@@ -1,0 +1,256 @@
+.title{
+	font-family: Brush Script MT, cursive;
+	font-size: 500%;
+	color: #ff4d4d;
+	text-shadow: 0 0 3px #ffdb4d, 0 0 5px #ffdb4d;
+}
+
+.accountInfo{
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+}
+
+.accountInfo li a{
+	border: 1px solid grey;
+	margin: 1px;
+	background-color: white;
+	font-family: Times New Roman;
+	color: black;
+	text-decoration: none;
+	padding: 5px;
+	padding-top: 20px;
+	font-size: 150%;
+}
+
+#link:hover{
+	color: #ff4d4d;
+}
+
+.navBar{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	align-content: space-between;
+	flex-wrap: wrap;
+	
+}
+
+.navBar li a{
+	background-color: white;
+	font-family: Times New Roman;
+	color: black;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 150%;
+	border: 1px solid grey;
+	margin: 2px;
+}
+
+
+.footer{
+	display: flex;
+	justify-content: center;
+}
+
+.footer div p{
+	font-family: Times New Roman;
+	font-size: 125%;
+}
+
+.person1{
+	background-color: whitesmoke;
+	margin-right: 0px;
+	padding: 10px;
+	border-left: 2px solid black;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.person2{
+	background-color: whitesmoke;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 10px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.person3{
+	background-color: whitesmoke;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 10px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.person4{
+	background-color: whitesmoke;
+	margin-left: 0px;
+	padding: 10px;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.imageContainer img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.imageContainer{
+	display: grid;
+	grid-template-areas: 'header header header'
+						 'description1 image1 ad1'
+						 'image2 description2 ad2'
+						 'image3 image3 image3';
+	gap: 15px;
+}
+
+.header{
+	grid-area: header;
+	text-align: center;
+	font-family: Brush Script MT, cursive;
+	font-size: 500%;
+	color: #ff4d4d;
+	text-shadow: 0 0 3px #ffdb4d, 0 0 5px #ffdb4d;
+}
+
+.description1{
+	grid-area: description1;
+	border: 5px solid #ff4d4d;
+	margin: auto;
+}
+
+
+.description2{
+	grid-area: description2;
+	background-color: white;
+	border: 5px solid #ff4d4d;
+	text-align: center;
+	font-size: 200%;
+	padding-top: 200px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.image1{
+	grid-area: image1;
+	border: 5px solid #ff4d4d;
+	
+}
+
+.image2{
+	grid-area: image2;	
+	border: 5px solid #ff4d4d;
+	width: 800px;
+}
+
+.image3{
+	grid-area: image3;
+}
+
+
+.ad1{
+	grid-area: ad1;
+	max-width: 200px;
+	max-height: auto;
+}
+
+.ad2{
+	grid-area: ad2;
+	max-width: 200px;
+	max-height: auto;
+}
+
+.sub-menu {
+	display: none;
+	position: absolute;
+	text-align: left;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/* Links inside the submenu */
+.sub-menu a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+/* Change color when hovering over submenu links */
+#menu-link:hover {
+	background-color: #f1f1f1;
+	color: #ff4d4d;
+}
+
+
+/* Show the submenu on hover */
+.menu:hover .sub-menu {
+	display: block;
+}
+
+.picture{
+	display: none;
+}
+
+.picture img{
+	opacity: 1;
+	width: 805px;
+	height: 500px;
+	transition: 0.5s ease;
+}
+
+.btns{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.prev, .next{
+	font-size: 30px;
+	color: #ffdb4d;
+	background-color: #ff4d4d;
+	border-radius: 5px;
+	width: 400px;
+}
+
+.carouselContainer button:hover{
+	background-color: white;
+	color: black;
+}
+
+.box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transition: .5s ease;
+	opacity: 0;
+}
+
+.picContainer{
+	position: relative;
+}
+
+.picContainer:hover img{
+	opacity: 0.3;
+}
+
+.picContainer:hover .box{
+	opacity: 1;
+}
+
+.text{
+	background-color: #ff4d4d;
+	color: #ffdb4d;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 5px;
+}

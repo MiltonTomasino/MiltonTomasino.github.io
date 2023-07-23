@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang = "eng">
+	<head>
+	<meta charset = "utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel = "stylesheet" href = "stylesheets/homepage_stylesheet.css">
+	<link rel = "stylesheet" href = "stylesheets/registration_stylesheet.css">
+	<title> Register Account </title>
+	</head>
+	
+	<header><center><h1>Registration</h1></center></header>
+	
+	<nav>
+		<ul class = "navBar">
+			<li><a id ="link" href = "HomePage.html">Home Page</a></li>
+			<div class = "menu">
+				<li><a id = "link" href = "menu.html">Menu</a></li>
+					<div class = "sub-menu">
+						<a id = "menu-link" href = "./menu_items/Appetizers.html">Appetizers</a>
+						<a id = "menu-link" href = "./menu_items/Dim_Sum.html">Dim Sum</a>
+						<a id = "menu-link" href = "./menu_items/Noodles.html">Noodles</a>
+						<a id = "menu-link" href = "./menu_items/Beef.html">Beef</a>
+						<a id = "menu-link" href = "./menu_items/Desserts.html">Desserts</a>
+						<a id = "menu-link" href = "./menu_items/Drinks.html">Drinks</a>
+					</div>
+			</div>
+			<li><a id ="link" href = "about_us.html">About Us</a></li>
+			<li><a id ="link" href = "orderonline.html">Order Online</a></li>
+			<li><a id ="link" href = "faq.html">FAQ</a></li>
+		</ul>
+	</nav>
+	<br>
+	<br>
+	
+	<body bgcolor = "Wheat">
+
+		<div class="center">
+		<div class="container">
+
+			<fieldset>
+			<legend>Account Information</legend>
+			<form class="form" id="form">
+				
+				<div class="formItem">
+					<label>Enter Username</label>
+					<input type="text" placeholder="username" id="username">
+					<small>error message</small>
+				</div>
+
+				<div class="formItem">
+					<label>Enter Email</label>
+					<input type="text" placeholder="abc@efg.com" id="email">
+					<small>error message</small>
+				</div>
+
+				<div class="formItem">
+					<label>Re-Enter Email</label>
+					<input type="text" placeholder="abc.efg.com" id="email2">
+					<small>error message</small>
+				</div>
+
+				<div class="formItem">
+					<label>Enter Password</label>
+					<input type="password" placeholder="password" id="password">
+					<small>error message</small>
+				</div>
+
+				<div class="formItem">
+					<label>Re-Enter Password</label>
+					<input type="password" placeholder="password" id="password2">
+					<small>error message</small>
+				</div>
+			<div class="passwordInstructions"><small>In you password, include atleast:
+				<ul>
+					<li>1 lowercase character</li>
+					<li>1 uppercase character</li>
+					<li>1 number</li>
+					<li>1 special character</li>
+					<li>must be >= 12 characters</li>
+				</ul>
+			</small>
+			</div>
+			</fieldset>
+			<br>
+				<fieldset class="container2"> <legend>Payment & Billing Information (optional)</legend>
+				<div class="formItem">
+					<label>Type of Card</label>
+					<select name="card_type" id="card_type">
+						<option value=""></option>
+						<option value="visa">Visa</option>
+						<option value="rupay">Amex</option>
+						<option value="mastercard">MasterCard</option></select>
+					<small>error message</small>
+				</div>
+
+				<div class="formItem">
+					<label>Name on Card</label>
+					<input type="text" placeholder="name" id="cardName">
+					<small>error message</small>
+				</div>
+
+				<div class="formItem">
+					<label>Card Number</label>
+					<input type="number" placeholder="xxxx-xxxx-xxxx-xxxx" id="cardNum">
+					<small>error message</small>
+				</div>
+
+				<div class="formItem">
+					<label>CVV</label>
+					<input type="number" placeholder="123" size="3" id="cvv">
+					<small>error message</small>
+				</div>
+
+				<div class="formItem">
+					<label>Address</label>
+					<input type="text" placeholder="123 ABC way" id="address">
+					<small>error message</small>
+				</div>
+
+				<div class="formItem">
+					<label>City</label>
+					<input type="text" placeholder="San Francisco" id="city">
+					<small>error message</small>
+				</div>
+
+				<div class="formItem">
+					<label>State</label>
+					<select id="state" name="state">
+						<option value=""></option>
+						<option value="Alibama">AL</option>
+						<option value="Alaska">AK</option>
+						<option value="Arizona">AZ</option>
+						<option value="Arkansas">AR</option>
+						<option value="American Samoa">AS</option>
+						<option value="California">CA</option>
+						<option value="Colorado">CO</option>
+						<option value="Conneticut">CT</option>
+						<option value="Delaware">DE</option>
+						<option value="District of Columbia">DC</option>
+						<option value="Florida">FL</option>
+						<option value="Georgia">GA</option>
+						<option value="Guam">GU</option>
+						<option value="Hawaii">HI</option>
+						<option value="Idaho">ID</option>
+						<option value="Illinois">IL</option>
+						<option value="Indiana">IN</option>
+						<option value="Iowa">IA</option>
+						<option value="Kansas">KS</option>
+						<option value="Kentucky">KY</option>
+						<option value="Louisiana">LA</option>
+						<option value="Maine">ME</option>
+						<option value="Maryland">MD</option>
+						<option value="Massachusetts">MA</option>
+						<option value="Michigan">MI</option>
+						<option value="Minnesota">MN</option>
+						<option value="Mississippi">MS</option>
+						<option value="Missouri">MO</option>
+						<option value="Montana">MT</option>
+						<option value="Nebraska">NE</option>
+						<option value="Nevada">NV</option>
+						<option value="New Hampshire">NH</option>
+						<option value="New Jersey">NJ</option>
+						<option value="New Mexico">NM</option>
+						<option value="New York">NY</option>
+						<option value="North Carolina">NC</option>
+						<option value="North Dakota">ND</option>
+						<option value="Northern Mariana Islands">MP</option>
+						<option value="Ohio">Oh</option>
+						<option value="Oklahoma">OK</option>
+						<option value="Oregon">OR</option>
+						<option value="Pennsylvania">PA</option>
+						<option value="Puerto Rico">PR</option>
+						<option value="Rhode Island">RI</option>
+						<option value="South Carolina">SC</option>
+						<option value="South Dakota">SD</option>
+						<option value="Tennessee">TN</option>
+						<option value="Texas">TX</option>
+						<option value="Trust Territories">TT</option>
+						<option value="Utah">UT</option>
+						<option value="Vermont">VT</option>
+						<option value="Virginia">VA</option>
+						<option value="Virgin Islands">VI</option>
+						<option value="Washington">WA</option>
+						<option value="West Virginia">WV</option>
+						<option value="Wisonsin">WI</option>
+						<option value="Wyoming">WY</option></select>
+					<small>error message</small>
+				</div>
+			</fieldset>
+			<br>
+			<button>submit</button>
+			</form>
+		</div>
+		</div>
+
+		
+
+	</body>
+	<br><br><br><br><br><br>
+	<footer>
+		<div class = "footer">
+			<div class = "person1"><p>Alpha Diallo<br>Email: adiallo@sfsu.edu</p></div>
+			<div class = "person2"><p>Milton Tomasino<br>Email: mtomasino@sfsu.edu</p></div>
+			<div class = "person3"><p>Thomas Bercasio<br>Email: tbercasio@sfsu.edu</p></div>
+			<div class = "person4"><p>Tong Lin<br>Email: tlin@sfsu.edu</p></div>
+		</div>
+	</footer>
+
+	<script src="./javascript/formvalidation.js"></script>
+</html>

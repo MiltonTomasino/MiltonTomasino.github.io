@@ -1,41 +1,23 @@
-body{
-    background-color: #333399;
+ body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: azure;
     line-height: 1.6;
     font-size: 16px;
+    min-height: 100vh;
 }
-
-header{
-    margin: 0;
-}
-
-header h1{
-    margin: 0;
-    object-fit: cover;
-    font-size: 2rem;
-    color: black;
-}
-
-.navBar{
-    display: flex;
-    background-color: #c6c6ec;
-    border-bottom: 2px solid black;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    font-size: 1.2rem;
-    padding: 1rem;
-    justify-content: space-between;
-    align-items: stretch;
-    gap: 10px;
-}
-
+/*
 .navBar ul{
     list-style: none;
     display: flex;
     color: black;
-    /* padding: 14px 20px; */
+    padding: 14px 20px;
 }
 
 .navBar a {
@@ -48,7 +30,25 @@ header h1{
 .navBar a:hover{
     background: #ffffcc;
     color: black;
-}
+} */
 
 /* #141452 */
 /* #191966 */
+
+.greetings{
+    text-align: center;
+}
+
+
+
+.greetings h2{
+    margin: 0;
+}
+
+.greetings h2 a{
+    color: white;
+}
+
+.greetings h2 a:hover{
+    color: blue;
+}

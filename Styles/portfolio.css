@@ -1,0 +1,39 @@
+.content-body{
+    padding: 2rem;
+    margin: 3rem;
+    /* border-style: solid;
+    border-color: red; */
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-table{
+    /* border: 2px;
+    border-style: solid;
+    border-color: blue; */
+    align-items: center;
+    width: 100%;
+}
+
+.portfolio-table td{
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    padding: 2rem;
+    text-align: center;
+}
+
+.text{
+    width: 50%;
+}
+
+.image-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.image img:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+

@@ -8,27 +8,6 @@
     justify-content: center;
 }
 
-.portfolio-table{
-    /* border: 2px;
-    border-style: solid;
-    border-color: blue; */
-    align-items: center;
-    width: 100%;
-}
-
-.portfolio-table td{
-    border: 3px;
-    border-style: solid;
-    border-color: black;
-    padding: 2rem;
-    text-align: center;
-}
-
-.image-wrapper{
-    display: flex;
-    justify-content: center;
-}
-
 .image img:hover{
     opacity: 50%;
     cursor: pointer;
@@ -70,8 +49,8 @@
 }
 
 .image-container img{
-    border-style: solid;
-    border-color: yellow;
+    /* border-style: solid;
+    border-color: yellow; */
     margin: 2rem;
     width: 700px;
     height: 400px;
@@ -93,3 +72,159 @@
     right: -695px;
 }
 
+
+
+@media (max-width: 1500px){
+    .content-body{
+        padding: 2rem;
+        margin: 3rem;
+        /* border-style: solid;
+        border-color: red; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .image img:hover{
+        opacity: 50%;
+        cursor: pointer;
+    }
+    
+    .content-container{
+        width: 100%;
+        /* border-style: solid; */
+        /* border-color: blue; */
+        /* border-top: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-height: 100%;
+    }
+    
+    .description{
+        /* border-style: solid; */
+        /* border-color: green; */
+        border-bottom: 2px solid black;
+        border-right: none;
+        margin: 5rem;
+        max-width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+    }
+    
+    .text{
+        /* border-style: solid;
+        border-color: pink; */
+        padding: 3rem;
+        width: 500px;
+        /* max-width: 100%; */
+        font-size: 23px;
+        word-wrap: break-word;
+        overflow: hidden;
+    }
+    
+    .image-container img{
+        /* border-style: solid;
+        border-color: yellow; */
+        margin: 2rem;
+        width: 600px;
+        height: 300px;
+    }
+    
+    .picture:hover, .picture2:hover{
+        opacity: 50%;
+    }
+    
+    .carousel-button-left{
+        position: relative;
+        top: -200px;
+        right: -40px;
+    }
+    
+    .carousel-button-right{
+        position: relative;
+        top: -200px;
+        right: -595px;
+    }
+}
+
+@media (max-width: 768px){
+    .content-body{
+        padding: 2rem;
+        margin: 3rem;
+        /* border-style: solid;
+        border-color: red; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .image img:hover{
+        opacity: 50%;
+        cursor: pointer;
+    }
+    
+    .content-container{
+        width: 100%;
+        /* border-style: solid; */
+        /* border-color: blue; */
+        /* border-top: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-height: 100%;
+    }
+    
+    .description{
+        /* border-style: solid; */
+        /* border-color: green; */
+        border-bottom: 2px solid black;
+        border-right: none;
+        margin: 5rem;
+        max-width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+    }
+    
+    .text{
+        /* border-style: solid;
+        border-color: pink; */
+        padding: 3rem;
+        /* width: 100%; */
+        /* max-width: 100%; */
+        font-size: 17px;
+        word-wrap: break-word;
+        overflow: auto;
+        max-height: 200px;
+    }
+    
+    .image-container img{
+        /* border-style: solid;
+        border-color: yellow; */
+        margin: 2rem;
+        width: 300px;
+        height: 150px;
+    }
+    
+    .picture:hover, .picture2:hover{
+        opacity: 50%;
+    }
+    
+    .carousel-button-left{
+        position: relative;
+        top: -125px;
+        right: -40px;
+    }
+    
+    .carousel-button-right{
+        position: relative;
+        top: -124px;
+        right: -295px;
+    }
+}

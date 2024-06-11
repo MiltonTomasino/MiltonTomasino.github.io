@@ -197,7 +197,7 @@
         padding: 3rem;
         /* width: 100%; */
         /* max-width: 100%; */
-        font-size: 15px;
+        font-size: 13px;
         word-wrap: break-word;
         overflow: auto;
         max-height: 300px;
@@ -207,7 +207,7 @@
         /* border-style: solid;
         border-color: yellow; */
         margin: 2rem;
-        width: 400px;
+        width: 370px;
         height: 200px;
     }
     
@@ -224,6 +224,6 @@
     .carousel-button-right{
         position: relative;
         top: -130px;
-        right: -393px;
+        right: -363px;
     }
 }

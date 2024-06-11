@@ -4,6 +4,7 @@
     /* border-style: solid;
     border-color: red; */
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -23,10 +24,6 @@
     text-align: center;
 }
 
-.text{
-    width: 50%;
-}
-
 .image-wrapper{
     display: flex;
     justify-content: center;
@@ -35,5 +32,64 @@
 .image img:hover{
     opacity: 50%;
     cursor: pointer;
+}
+
+.content-container{
+    width: 100%;
+    /* border-style: solid;
+    border-color: blue; */
+    border-top: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-height: 100%;
+}
+
+.description{
+    /* border-style: solid;
+    border-color: green; */
+    border-right: 2px solid black;
+    margin: 5rem;
+    max-width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.text{
+    /* border-style: solid;
+    border-color: pink; */
+    padding: 3rem;
+    width: 100%;
+    max-width: 100%;
+    font-size: 23px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.image-container img{
+    border-style: solid;
+    border-color: yellow;
+    margin: 2rem;
+    width: 700px;
+    height: 400px;
+}
+
+.picture:hover, .picture2:hover{
+    opacity: 50%;
+}
+
+.carousel-button-left{
+    position: relative;
+    top: -250px;
+    right: -40px;
+}
+
+.carousel-button-right{
+    position: relative;
+    top: -250px;
+    right: -695px;
 }
 

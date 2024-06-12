@@ -312,7 +312,7 @@
         height: 50px;
         position: relative;
         top: -130px;
-        right: -7px;
+        right: 0%;
     }
     
     .carousel-button-right{
@@ -320,7 +320,7 @@
         width: 20px;
         position: relative;
         top: -130px;
-        right: -365px;
+        left: 90%;
     }
 
 }

@@ -1,7 +1,8 @@
-let slideIndices = [1, 1];
+let slideIndices = [1, 1, 1];
 
 showSlides(1, 'C1', 0);
 showSlides(1, 'C2', 1);
+showSlides(1, 'C3', 2);
 
 function plusSlides(n, carouselClass, carouselIndex) {
     showSlides(slideIndices[carouselIndex] += n, carouselClass, carouselIndex);

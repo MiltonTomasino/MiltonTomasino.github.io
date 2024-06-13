@@ -56,7 +56,13 @@
     height: 400px;
 }
 
-.picture:hover, .picture2:hover, .picture3:hover{
+.picture4{
+    margin: 2rem;
+    width: 700px;
+    height: 300px !important; 
+}
+
+.picture:hover, .picture2:hover, .picture3:hover, .picture4:hover{
     opacity: 50%;
 }
 
@@ -287,6 +293,7 @@
     .text {
         /* border: 2px solid purple; */
         padding: 15px;
+        font-size: 17px;
         margin: 0;
     }
 
@@ -307,6 +314,9 @@
         display: block;
         padding: 0;
         margin: 0;
+    }
+    .picture4{
+        height: 150px !important; 
     }
 
     .carousel-button-left, .carousel-button-right {
